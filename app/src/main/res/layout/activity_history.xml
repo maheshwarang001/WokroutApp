@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".history"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar_history"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="gone"
+        android:id="@+id/recycler_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp"/>
+    <TextView
+        android:id="@+id/visible_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="No  data available"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="main_screen_image_siz">220dp</dimen>
+    <dimen name="main_screen_padding">5dp</dimen>
+    <dimen name="start_btn">150dp</dimen>
+    <dimen name="start_btn_margin_top">20dp</dimen>
+    <dimen name="start_btn_label_textsize">22sp</dimen>
+</resources>

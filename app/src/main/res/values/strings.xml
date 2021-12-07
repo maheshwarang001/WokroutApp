@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Workout app</string>
+    <string name="quick_start">Quick Start</string>
+    <string name="amlost_done">Almost done</string>
+</resources>
